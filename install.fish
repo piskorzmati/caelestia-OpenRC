@@ -194,10 +194,10 @@ if confirm-overwrite $config/fastfetch
 end
 
 # Uwsm
-if confirm-overwrite $config/uwsm
-    log 'Installing uwsm config...'
-    ln -s (realpath uwsm) $config/uwsm
-end
+#if confirm-overwrite $config/uwsm
+#    log 'Installing uwsm config...'
+#    ln -s (realpath uwsm) $config/uwsm
+#end
 
 # Btop
 if confirm-overwrite $config/btop
